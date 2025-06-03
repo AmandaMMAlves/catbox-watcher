@@ -1,0 +1,13 @@
+keras==3.8.0
+matplotlib==3.9.4
+matplotlib-inline==0.1.7
+numpy==2.0.2
+opencv-python==4.11.0.86
+pandas==2.2.3
+requests==2.32.3
+scikit-learn==1.6.1
+tensorflow==2.18.0
+tensorflow-io-gcs-filesystem==0.37.1
+sendgrid==6.11.0
+python-http-client==3.3.7
+starkbank-ecdsa==2.2.0
