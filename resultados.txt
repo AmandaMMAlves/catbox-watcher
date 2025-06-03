@@ -1,0 +1,35 @@
+Rodando com o balanceamento de 93 imagens sem o Data Augmentation
+
+Treinando o modelo com a base balanceada tratada... 
+              precision    recall  f1-score   support
+
+           0       0.51      1.00      0.68        19
+           1       0.00      0.00      0.00        18
+
+    accuracy                           0.51        37
+   macro avg       0.26      0.50      0.34        37
+weighted avg       0.26      0.51      0.35        37
+
+ROC AUC: 0.5
+
+
+Treinando uma nova instancia do modelo com a abordagem de validação cruzada:
+
+Acurácia média da validação cruzada: 0.8533 (+/- 0.2363)
+Precisão média da validação cruzada: 0.8900 (+/- 0.2982)
+Recall médio da validação cruzada: 0.7611 (+/- 0.3833)
+ROC AUC médio da validação cruzada: 0.8722 (+/- 0.1881)
+F1 médio da validação cruzada: 0.7814 (+/- 0.3572)
+2/2 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+Resultados: 
+
+              precision    recall  f1-score   support
+
+           0       0.68      0.68      0.68        19
+           1       0.67      0.67      0.67        18
+
+    accuracy                           0.68        37
+   macro avg       0.68      0.68      0.68        37
+weighted avg       0.68      0.68      0.68        37
+
+ROC AUC: 0.6754385964912281
